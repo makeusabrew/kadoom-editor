@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Kadoom - Map Editor</title>
+        <!-- global dependencies -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+        <!-- client side only code -->
+        <script src="/js/editor.js"></script>
+        <script>
+            var onLoad = function() {
+                Editor.init();
+            };
+        </script>
+    </head>
+    <body onload="javascript:onLoad();">
+        <header>
+            <h1>Kadoom - Map Editor</h1>
+        </header>
+        <canvas id="editor" style="border:1px solid black;"></canvas>
+        <footer>
+            by <a href="http://github.com/makeusabrew">makeusabrew</a>
+        </footer>
+    </body>
+</html>
